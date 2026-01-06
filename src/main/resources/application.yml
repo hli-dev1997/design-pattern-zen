@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: design-pattern-zen
+  # 虚拟线程开启 (需 JDK 21+)
+  threads:
+    virtual:
+      enabled: true
+
+logging:
+  level:
+    com.hli.design.zen: INFO
