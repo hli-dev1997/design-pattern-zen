@@ -6,6 +6,9 @@ import com.hli.design.zen.creational.factory.common.WhiteHuman;
 import com.hli.design.zen.creational.factory.common.YellowHuman;
 import com.hli.design.zen.creational.factory.v1_bad.BlueHuman;
 import com.hli.design.zen.creational.factory.v2_reflectionFactory.HumanReflectionFactory;
+import com.hli.design.zen.creational.factory.v3_factory.AbstractHumanFactory;
+import com.hli.design.zen.creational.factory.v3_factory.BlackHumanFactory;
+import com.hli.design.zen.creational.factory.v3_factory.WhiteHumanFactory;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -106,7 +109,25 @@ public class NvWa {
 //            blueHuman.talk();
 //        }
 
+        //todo 真正工厂模式
+        // 1. 想造白人？先去把“白人八卦炉”搬出来
+        AbstractHumanFactory whiteFactory = new WhiteHumanFactory();
+        // 炉子开启，产出白人
+        Human whiteHuman = whiteFactory.createHuman();
+        if (whiteHuman != null) {
+            whiteHuman.getColor();
+            whiteHuman.talk();
+        }
 
+        // 2. 想造黑人？再去把“黑人八卦炉”搬出来
+        AbstractHumanFactory blackFactory = new BlackHumanFactory();
+        // 炉子开启，产出黑人（而且是已经初始化好语言的黑人）
+        Human blackHuman = blackFactory.createHuman();
+        if (blackHuman != null) {
+            blackHuman.getColor();
+            blackHuman.talk();
+        }
+        //黑人说|黑人说非洲话
         log.info("===== 女娲造人结束 =====");
     }
 }

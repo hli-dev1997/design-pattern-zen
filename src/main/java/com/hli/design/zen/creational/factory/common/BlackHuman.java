@@ -25,4 +25,8 @@ public class BlackHuman implements Human {
     public void talk() {
         log.info("黑人说话|Black_human_talk,message=黑人会说话，一般人听不懂");
     }
+
+    public void language(String lan){
+        log.info("黑人说|黑人说非洲话");
+    }
 }
