@@ -5,7 +5,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * 皇帝类（枚举版 - 最终兵器）
+ * 皇帝类（枚举版 - 饿汉式max版本）
  *
  * 设计目的：
  * 1. 极其简洁：不需要写 private 构造，不需要写 getInstance。

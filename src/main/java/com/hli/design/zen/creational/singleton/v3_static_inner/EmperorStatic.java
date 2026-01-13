@@ -3,7 +3,7 @@ package com.hli.design.zen.creational.singleton.v3_static_inner;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * 皇帝类（静态内部类版 - 推荐）
+ * 皇帝类（静态内部类版 - 懒汉式max版）
  *
  * 设计目的：
  * 1. 演示利用 JVM 类加载机制实现单例。
