@@ -1,4 +1,4 @@
-package com.hli.design.zen.creational.factory.v1_bad;
+package com.hli.design.zen.creational.factory.common;
 
 import lombok.extern.slf4j.Slf4j;
 

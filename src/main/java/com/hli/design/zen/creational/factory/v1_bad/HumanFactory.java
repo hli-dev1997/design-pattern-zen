@@ -1,5 +1,9 @@
 package com.hli.design.zen.creational.factory.v1_bad;
 
+import com.hli.design.zen.creational.factory.common.BlackHuman;
+import com.hli.design.zen.creational.factory.common.Human;
+import com.hli.design.zen.creational.factory.common.WhiteHuman;
+import com.hli.design.zen.creational.factory.common.YellowHuman;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -21,7 +25,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class HumanFactory {
 
-    /**
+    /**todo 思考怎么通过反射避开了硬编码的 if-else
      * 创建人类实例
      *
      * 实现逻辑：

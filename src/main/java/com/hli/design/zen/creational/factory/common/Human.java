@@ -1,4 +1,4 @@
-package com.hli.design.zen.creational.factory.v1_bad;
+package com.hli.design.zen.creational.factory.common;
 
 /**
  * 人类接口
