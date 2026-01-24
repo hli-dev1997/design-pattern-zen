@@ -1,6 +1,6 @@
 /**
  * ❌ 烂代码示范
- *
+ * <p>
  * 场景：
  * 假设我们需要发送 100 万封账单邮件。
  * 如果每次都 new 一个 Mail 对象，不仅耗时，而且如果 Mail 构造函数里有耗时操作（如查库），系统会直接崩掉。
@@ -23,7 +23,7 @@ import lombok.extern.slf4j.Slf4j;
  * 如果构造函数里要连数据库、解析模板，这代码能跑慢到让你怀疑人生。
  */
 @Slf4j
-public class DirectNew{
+public class DirectNew {
     public static void main(String[] args) {
         log.info("===== 开始发送邮件 (烂代码版) =====");
         // 记录开始时间
@@ -36,19 +36,26 @@ public class DirectNew{
         log.info("发送完成，总耗时: {} ms|Send_completed,duration={}", (end - start), (end - start));
         log.info("===== 结束 =====");
     }
-    private static   void sendMails(){
+
+    private static void sendMails() {
+        // ⚠️ 600万次太久了，咱们改成 1000 次，足以证明构造函数被重复执行了
         int i = 0;
-        while (i < 6000000){
-            //每次都从头开始初始化，耗时耗力
+        int max = 1000;
+        while (i < max) {
+            // 每次 new 都会触发 Mail 的构造函数日志 -> "【构造函数执行】..."
             Mail mail = new Mail();
-            mail.setSubject("主题" + i);//假设这里很耗时
+            mail.setSubject("主题" + i);
             mail.setReceiver("user" + i);
             send(mail);
             i++;
         }
     }
 
+    /**
+     * 总耗时: 15673 ms
+     * @param mail 邮件对象
+     */
     private static void send(Mail mail) {
-        log.info("send_user={},sub={}",mail.getReceiver(),mail.getSubject());
+        log.info("send_user={},sub={}", mail.getReceiver(), mail.getSubject());
     }
 }
