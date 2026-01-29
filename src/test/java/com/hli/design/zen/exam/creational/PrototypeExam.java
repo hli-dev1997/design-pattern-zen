@@ -46,11 +46,7 @@ public class PrototypeExam {
         public ShallowCopyPrototype clone() {
             // TODO: 实现浅拷贝
             // 提示：调用 super.clone()
-            try {
-                return null;  // TODO
-            } catch (CloneNotSupportedException e) {
-                throw new RuntimeException(e);
-            }
+            return null;  // TODO
         }
         
         public String getName() { return name; }
@@ -109,11 +105,7 @@ public class PrototypeExam {
             // 1. 调用 super.clone() 获取浅拷贝
             // 2. 手动复制数组（Arrays.copyOf）
             // 3. 手动克隆 Address 对象
-            try {
-                return null;  // TODO
-            } catch (CloneNotSupportedException e) {
-                throw new RuntimeException(e);
-            }
+            return null;  // TODO
         }
         
         // Getter/Setter
@@ -138,11 +130,7 @@ public class PrototypeExam {
         @Override
         public Address clone() {
             // TODO: 实现克隆
-            try {
-                return null;  // TODO
-            } catch (CloneNotSupportedException e) {
-                throw new RuntimeException(e);
-            }
+            return null;  // TODO
         }
         
         public String getCity() { return city; }
