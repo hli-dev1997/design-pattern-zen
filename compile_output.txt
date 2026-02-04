@@ -1,0 +1,630 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.hli:design-pattern-zen >---------------------
+[INFO] Building design-pattern-zen 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ design-pattern-zen ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ design-pattern-zen ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 78 source files with javac [debug parameters release 21] to target\classes
+[INFO] 由于在类路径中发现了一个或多个处理程序，因此启用了
+  批注处理。未来发行版的 javac 可能会禁用批注处理，
+  除非至少按名称指定了一个处理程序 (-processor)，
+  或指定了搜索路径 (--processor-path, --processor-module-path)，
+  或显式启用了批注处理 (-proc:only, -proc:full)。
+  可使用 -Xlint:-options 隐藏此消息。
+  可使用 -proc:none 禁用批注处理。
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v3_enum/Demo.java:[61,8] 枚举 StrategyEnum 是公共的, 应在名为 StrategyEnum.java 的文件中声明
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/common/StrategyPatternDemo.java:[15,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.behavioral.strategy.common.StrategyPatternDemo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v1_basic/Demo.java:[17,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.behavioral.strategy.v1_basic.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v1_basic/Demo.java:[18,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.behavioral.strategy.v1_basic.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v1_basic/Demo.java:[19,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.behavioral.strategy.v1_basic.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v1_basic/Demo.java:[26,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.behavioral.strategy.v1_basic.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v1_basic/Demo.java:[48,13] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.behavioral.strategy.v1_basic.ZhaoYun
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v1_basic/Demo.java:[50,13] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.behavioral.strategy.v1_basic.ZhaoYun
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v1_basic/Demo.java:[52,13] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.behavioral.strategy.v1_basic.ZhaoYun
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v2_standard/Demo.java:[17,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.behavioral.strategy.v2_standard.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v2_standard/Demo.java:[18,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.behavioral.strategy.v2_standard.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v2_standard/Demo.java:[35,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.behavioral.strategy.v2_standard.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v2_standard/Demo.java:[62,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.behavioral.strategy.v2_standard.BackDoor
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v2_standard/Demo.java:[76,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.behavioral.strategy.v2_standard.GivenGreenLight
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v2_standard/Demo.java:[90,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.behavioral.strategy.v2_standard.BlockEnemy
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v3_enum/Demo.java:[17,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.behavioral.strategy.v3_enum.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v3_enum/Demo.java:[18,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.behavioral.strategy.v3_enum.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v3_enum/Demo.java:[25,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.behavioral.strategy.v3_enum.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v3_enum/Demo.java:[31,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.behavioral.strategy.v3_enum.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v3_enum/Demo.java:[69,13] 找不到符号
+  符号: 变量 log
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v3_enum/Demo.java:[79,13] 找不到符号
+  符号: 变量 log
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v3_enum/Demo.java:[89,13] 找不到符号
+  符号: 变量 log
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[90,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[95,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[99,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[102,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[118,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[139,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[162,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[181,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[201,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[223,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[227,13] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[230,13] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[245,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[259,13] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[279,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[301,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[312,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[316,17] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[321,21] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[324,17] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[326,17] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[329,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/factory/NvWa.java:[42,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.factory.NvWa
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/factory/NvWa.java:[131,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.factory.NvWa
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/factory/common/BlackHuman.java:[21,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.factory.common.BlackHuman
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/factory/common/BlackHuman.java:[26,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.factory.common.BlackHuman
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/factory/common/BlackHuman.java:[30,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.factory.common.BlackHuman
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/factory/common/WhiteHuman.java:[21,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.factory.common.WhiteHuman
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/factory/common/WhiteHuman.java:[26,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.factory.common.WhiteHuman
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/factory/common/YellowHuman.java:[21,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.factory.common.YellowHuman
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/factory/common/YellowHuman.java:[26,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.factory.common.YellowHuman
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/factory/v1_bad/HumanFactory.java:[47,17] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.factory.v1_bad.HumanFactory
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/factory/v2_reflectionFactory/BlueHuman.java:[25,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.factory.v1_bad.BlueHuman
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/factory/v2_reflectionFactory/BlueHuman.java:[30,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.factory.v1_bad.BlueHuman
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/factory/v2_reflectionFactory/HumanReflectionFactory.java:[39,13] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.factory.v2_reflectionFactory.HumanReflectionFactory
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/Mail.java:[56,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.prototype.Mail
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v1_bad/DirectNew.java:[28,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.prototype.v1_bad.DirectNew
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v1_bad/DirectNew.java:[36,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.prototype.v1_bad.DirectNew
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v1_bad/DirectNew.java:[37,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.prototype.v1_bad.DirectNew
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v1_bad/DirectNew.java:[47,17] 找不到符号
+  符号:   方法 setSubject(java.lang.String)
+  位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 mail
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v1_bad/DirectNew.java:[48,17] 找不到符号
+  符号:   方法 setReceiver(java.lang.String)
+  位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 mail
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v1_bad/DirectNew.java:[59,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.prototype.v1_bad.DirectNew
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v1_bad/DirectNew.java:[59,45] 找不到符号
+  符号:   方法 getReceiver()
+  位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 mail
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v1_bad/DirectNew.java:[59,65] 找不到符号
+  符号:   方法 getSubject()
+  位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 mail
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v2_clone/CloneFactory.java:[16,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.prototype.v2_clone.CloneFactory
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v2_clone/CloneFactory.java:[21,18] 找不到符号
+  符号:   方法 setSubject(java.lang.String)
+  位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 protoMail
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v2_clone/CloneFactory.java:[22,18] 找不到符号
+  符号:   方法 setContext(java.lang.String)
+  位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 protoMail
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v2_clone/CloneFactory.java:[28,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.prototype.v2_clone.CloneFactory
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v2_clone/CloneFactory.java:[31,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.prototype.v2_clone.CloneFactory
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v2_clone/CloneFactory.java:[31,42] 找不到符号
+  符号:   方法 getAddress()
+  位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 protoMail
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v2_clone/CloneFactory.java:[41,22] 找不到符号
+  符号:   方法 setReceiver(java.lang.String)
+  位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 cloneMail
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v2_clone/CloneFactory.java:[42,22] 找不到符号
+  符号:   方法 setAppellation(java.lang.String)
+  位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 cloneMail
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v2_clone/CloneFactory.java:[43,22] 找不到符号
+  符号:   方法 getAddress()
+  位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 cloneMail
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v2_clone/CloneFactory.java:[55,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.prototype.v2_clone.CloneFactory
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v2_clone/CloneFactory.java:[55,54] 找不到符号
+  符号:   方法 getReceiver()
+  位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 mail
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v2_clone/CloneFactory.java:[55,74] 找不到符号
+  符号:   方法 getSubject()
+  位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 mail
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v2_clone/CloneFactory.java:[55,93] 找不到符号
+  符号:   方法 getAddress()
+  位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 mail
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v3_deep/PrototypeManager.java:[19,21] 找不到符号
+  符号:   方法 setSubject(java.lang.String)
+  位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 mailTemplate
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v3_deep/PrototypeManager.java:[20,21] 找不到符号
+  符号:   方法 setContext(java.lang.String)
+  位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 mailTemplate
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v3_deep/main.java:[18,14] 找不到符号
+  符号:   方法 getAddress()
+  位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 mail1
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v3_deep/main.java:[20,48] 找不到符号
+  符号:   方法 getAddress()
+  位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 mail1
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v3_deep/main.java:[21,48] 找不到符号
+  符号:   方法 getAddress()
+  位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 mail2
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/singleton/v1_bad/EmperorBad.java:[27,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.singleton.v1_bad.EmperorBad
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/singleton/v1_bad/EmperorBad.java:[44,13] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.singleton.v1_bad.EmperorBad
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/singleton/v1_bad/EmperorBad.java:[49,17] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.singleton.v1_bad.EmperorBad
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/singleton/v2_dcl/EmperorDcl.java:[30,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.singleton.v2_dcl.EmperorDcl
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/singleton/v2_dcl/EmperorDcl.java:[52,21] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.singleton.v2_dcl.EmperorDcl
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/singleton/v2_dcl/EmperorDcl.java:[55,21] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.singleton.v2_dcl.EmperorDcl
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/singleton/v3_static_inner/EmperorStatic.java:[26,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.creational.singleton.v3_static_inner.EmperorStatic
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/structural/adapter/common/AC220V.java:[26,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.structural.adapter.common.AC220V
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/structural/adapter/v2_object/Phone.java:[38,13] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.structural.adapter.v2_object.Phone
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/structural/adapter/v2_object/PowerAdapter.java:[49,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.structural.adapter.v2_object.PowerAdapter
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/structural/bridge/common/BridgePatternDemo.java:[15,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.structural.bridge.common.BridgePatternDemo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/structural/bridge/v1_basic/Demo.java:[17,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.structural.bridge.v1_basic.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/structural/bridge/v1_basic/Demo.java:[18,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.structural.bridge.v1_basic.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/structural/bridge/v1_basic/Demo.java:[19,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.structural.bridge.v1_basic.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/structural/bridge/v1_basic/Demo.java:[20,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.structural.bridge.v1_basic.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/structural/bridge/v1_basic/Demo.java:[21,9] 找不到符号
+  符号:   变量 log
+  位置: 类 com.hli.design.zen.structural.bridge.v1_basic.Demo
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.667 s
+[INFO] Finished at: 2026-02-04T19:21:36+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.14.0:compile (default-compile) on project design-pattern-zen: Compilation failure: Compilation failure: 
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v3_enum/Demo.java:[61,8] 枚举 StrategyEnum 是公共的, 应在名为 StrategyEnum.java 的文件中声明
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/common/StrategyPatternDemo.java:[15,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.behavioral.strategy.common.StrategyPatternDemo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v1_basic/Demo.java:[17,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.behavioral.strategy.v1_basic.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v1_basic/Demo.java:[18,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.behavioral.strategy.v1_basic.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v1_basic/Demo.java:[19,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.behavioral.strategy.v1_basic.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v1_basic/Demo.java:[26,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.behavioral.strategy.v1_basic.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v1_basic/Demo.java:[48,13] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.behavioral.strategy.v1_basic.ZhaoYun
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v1_basic/Demo.java:[50,13] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.behavioral.strategy.v1_basic.ZhaoYun
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v1_basic/Demo.java:[52,13] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.behavioral.strategy.v1_basic.ZhaoYun
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v2_standard/Demo.java:[17,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.behavioral.strategy.v2_standard.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v2_standard/Demo.java:[18,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.behavioral.strategy.v2_standard.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v2_standard/Demo.java:[35,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.behavioral.strategy.v2_standard.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v2_standard/Demo.java:[62,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.behavioral.strategy.v2_standard.BackDoor
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v2_standard/Demo.java:[76,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.behavioral.strategy.v2_standard.GivenGreenLight
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v2_standard/Demo.java:[90,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.behavioral.strategy.v2_standard.BlockEnemy
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v3_enum/Demo.java:[17,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.behavioral.strategy.v3_enum.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v3_enum/Demo.java:[18,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.behavioral.strategy.v3_enum.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v3_enum/Demo.java:[25,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.behavioral.strategy.v3_enum.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v3_enum/Demo.java:[31,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.behavioral.strategy.v3_enum.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v3_enum/Demo.java:[69,13] 找不到符号
+[ERROR]   符号: 变量 log
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v3_enum/Demo.java:[79,13] 找不到符号
+[ERROR]   符号: 变量 log
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/behavioral/strategy/v3_enum/Demo.java:[89,13] 找不到符号
+[ERROR]   符号: 变量 log
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[90,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[95,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[99,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[102,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[118,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[139,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[162,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[181,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[201,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[223,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[227,13] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[230,13] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[245,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[259,13] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[279,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[301,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[312,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[316,17] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[321,21] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[324,17] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[326,17] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/common/config/ThreadPoolConfig.java:[329,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.common.config.ThreadPoolConfig
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/factory/NvWa.java:[42,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.factory.NvWa
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/factory/NvWa.java:[131,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.factory.NvWa
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/factory/common/BlackHuman.java:[21,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.factory.common.BlackHuman
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/factory/common/BlackHuman.java:[26,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.factory.common.BlackHuman
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/factory/common/BlackHuman.java:[30,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.factory.common.BlackHuman
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/factory/common/WhiteHuman.java:[21,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.factory.common.WhiteHuman
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/factory/common/WhiteHuman.java:[26,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.factory.common.WhiteHuman
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/factory/common/YellowHuman.java:[21,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.factory.common.YellowHuman
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/factory/common/YellowHuman.java:[26,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.factory.common.YellowHuman
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/factory/v1_bad/HumanFactory.java:[47,17] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.factory.v1_bad.HumanFactory
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/factory/v2_reflectionFactory/BlueHuman.java:[25,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.factory.v1_bad.BlueHuman
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/factory/v2_reflectionFactory/BlueHuman.java:[30,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.factory.v1_bad.BlueHuman
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/factory/v2_reflectionFactory/HumanReflectionFactory.java:[39,13] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.factory.v2_reflectionFactory.HumanReflectionFactory
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/Mail.java:[56,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.prototype.Mail
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v1_bad/DirectNew.java:[28,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.prototype.v1_bad.DirectNew
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v1_bad/DirectNew.java:[36,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.prototype.v1_bad.DirectNew
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v1_bad/DirectNew.java:[37,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.prototype.v1_bad.DirectNew
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v1_bad/DirectNew.java:[47,17] 找不到符号
+[ERROR]   符号:   方法 setSubject(java.lang.String)
+[ERROR]   位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 mail
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v1_bad/DirectNew.java:[48,17] 找不到符号
+[ERROR]   符号:   方法 setReceiver(java.lang.String)
+[ERROR]   位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 mail
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v1_bad/DirectNew.java:[59,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.prototype.v1_bad.DirectNew
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v1_bad/DirectNew.java:[59,45] 找不到符号
+[ERROR]   符号:   方法 getReceiver()
+[ERROR]   位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 mail
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v1_bad/DirectNew.java:[59,65] 找不到符号
+[ERROR]   符号:   方法 getSubject()
+[ERROR]   位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 mail
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v2_clone/CloneFactory.java:[16,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.prototype.v2_clone.CloneFactory
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v2_clone/CloneFactory.java:[21,18] 找不到符号
+[ERROR]   符号:   方法 setSubject(java.lang.String)
+[ERROR]   位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 protoMail
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v2_clone/CloneFactory.java:[22,18] 找不到符号
+[ERROR]   符号:   方法 setContext(java.lang.String)
+[ERROR]   位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 protoMail
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v2_clone/CloneFactory.java:[28,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.prototype.v2_clone.CloneFactory
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v2_clone/CloneFactory.java:[31,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.prototype.v2_clone.CloneFactory
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v2_clone/CloneFactory.java:[31,42] 找不到符号
+[ERROR]   符号:   方法 getAddress()
+[ERROR]   位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 protoMail
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v2_clone/CloneFactory.java:[41,22] 找不到符号
+[ERROR]   符号:   方法 setReceiver(java.lang.String)
+[ERROR]   位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 cloneMail
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v2_clone/CloneFactory.java:[42,22] 找不到符号
+[ERROR]   符号:   方法 setAppellation(java.lang.String)
+[ERROR]   位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 cloneMail
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v2_clone/CloneFactory.java:[43,22] 找不到符号
+[ERROR]   符号:   方法 getAddress()
+[ERROR]   位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 cloneMail
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v2_clone/CloneFactory.java:[55,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.prototype.v2_clone.CloneFactory
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v2_clone/CloneFactory.java:[55,54] 找不到符号
+[ERROR]   符号:   方法 getReceiver()
+[ERROR]   位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 mail
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v2_clone/CloneFactory.java:[55,74] 找不到符号
+[ERROR]   符号:   方法 getSubject()
+[ERROR]   位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 mail
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v2_clone/CloneFactory.java:[55,93] 找不到符号
+[ERROR]   符号:   方法 getAddress()
+[ERROR]   位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 mail
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v3_deep/PrototypeManager.java:[19,21] 找不到符号
+[ERROR]   符号:   方法 setSubject(java.lang.String)
+[ERROR]   位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 mailTemplate
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v3_deep/PrototypeManager.java:[20,21] 找不到符号
+[ERROR]   符号:   方法 setContext(java.lang.String)
+[ERROR]   位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 mailTemplate
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v3_deep/main.java:[18,14] 找不到符号
+[ERROR]   符号:   方法 getAddress()
+[ERROR]   位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 mail1
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v3_deep/main.java:[20,48] 找不到符号
+[ERROR]   符号:   方法 getAddress()
+[ERROR]   位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 mail1
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/prototype/v3_deep/main.java:[21,48] 找不到符号
+[ERROR]   符号:   方法 getAddress()
+[ERROR]   位置: 类型为com.hli.design.zen.creational.prototype.Mail的变量 mail2
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/singleton/v1_bad/EmperorBad.java:[27,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.singleton.v1_bad.EmperorBad
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/singleton/v1_bad/EmperorBad.java:[44,13] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.singleton.v1_bad.EmperorBad
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/singleton/v1_bad/EmperorBad.java:[49,17] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.singleton.v1_bad.EmperorBad
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/singleton/v2_dcl/EmperorDcl.java:[30,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.singleton.v2_dcl.EmperorDcl
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/singleton/v2_dcl/EmperorDcl.java:[52,21] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.singleton.v2_dcl.EmperorDcl
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/singleton/v2_dcl/EmperorDcl.java:[55,21] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.singleton.v2_dcl.EmperorDcl
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/creational/singleton/v3_static_inner/EmperorStatic.java:[26,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.creational.singleton.v3_static_inner.EmperorStatic
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/structural/adapter/common/AC220V.java:[26,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.structural.adapter.common.AC220V
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/structural/adapter/v2_object/Phone.java:[38,13] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.structural.adapter.v2_object.Phone
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/structural/adapter/v2_object/PowerAdapter.java:[49,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.structural.adapter.v2_object.PowerAdapter
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/structural/bridge/common/BridgePatternDemo.java:[15,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.structural.bridge.common.BridgePatternDemo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/structural/bridge/v1_basic/Demo.java:[17,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.structural.bridge.v1_basic.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/structural/bridge/v1_basic/Demo.java:[18,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.structural.bridge.v1_basic.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/structural/bridge/v1_basic/Demo.java:[19,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.structural.bridge.v1_basic.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/structural/bridge/v1_basic/Demo.java:[20,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.structural.bridge.v1_basic.Demo
+[ERROR] /E:/project/design-pattern-zen/src/main/java/com/hli/design/zen/structural/bridge/v1_basic/Demo.java:[21,9] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.hli.design.zen.structural.bridge.v1_basic.Demo
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
