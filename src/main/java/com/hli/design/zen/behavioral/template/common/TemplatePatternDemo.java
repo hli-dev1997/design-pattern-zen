@@ -14,13 +14,16 @@ public class TemplatePatternDemo {
     public static void main(String[] args) {
         log.info("=== 模板方法模式演示 ===\n");
 
-        // V1: 劣质实现 (代码重复)
-        com.hli.design.zen.behavioral.template.v1_basic.Demo.run();
+//        // V1: 劣质实现 (代码重复)
+//        com.hli.design.zen.behavioral.template.v1_basic.Demo.run();
+//
+//        // V2: 标准模板方法实现
+//        com.hli.design.zen.behavioral.template.v2_standard.Demo.run();
+//
+//        // V3: 进阶实现 (钩子方法)
+//        com.hli.design.zen.behavioral.template.v3_hook.Demo.run();
 
-        // V2: 标准模板方法实现
-        com.hli.design.zen.behavioral.template.v2_standard.Demo.run();
-
-        // V3: 进阶实现 (钩子方法)
-        com.hli.design.zen.behavioral.template.v3_hook.Demo.run();
+        // V4: 包心实现 (钩子 + 默认空实现)
+        com.hli.design.zen.behavioral.template.v4_.Demo.run();
     }
 }
